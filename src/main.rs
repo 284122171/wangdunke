@@ -6,6 +6,7 @@ mod bridge_generated;
 // 导入依赖
 #[cfg(target_os = "android")]
 use android_logger;
+#[cfg(target_os = "android")]
 use log;
 
 // 从lib.rs导入函数

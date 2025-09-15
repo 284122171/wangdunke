@@ -1,5 +1,5 @@
 // Android minimal RustDesk library
-use std::ffi::{CStr, CString};
+use std::ffi::CString;
 use std::os::raw::c_char;
 
 // 基础模块
